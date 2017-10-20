@@ -1,0 +1,26 @@
+<div class="snackbar-player">
+
+
+    <div class="demo-card-square mdl-card mdl-shadow--2dp customPlayer" plangular="{{currentSong}}">
+        <div class="mdl-card__title mdl-card--expand">
+                  <progress ng-click="seek($event)" ng-value="currentTime / duration" class="scrubber">
+                    {{ currentTime / duration }}
+            </progress>
+            <h2 class="mdl-card__title-text">{{track.user.username}}</h2>
+            <span class="trackName" style="font-size: 8px;">{{track.title}}</span>
+
+       <div class="player-controls">
+            <button ng-click="previous()" class="playBtn">
+                <i class="material-icons">skip_previous</i>
+            </button>
+            <button ng-click="playPause()" title="Play/Pause" class="playBtn">
+                <i ng-if="player.playing !== track.src" class="material-icons">play_arrow</i>
+
+                <i ng-if="player.playing === track.src" class="material-icons">pause</i>
+
+            </button>
+            <button ng-click="next()" class="playBtn"><i class="material-icons">skip_next</i></button>
+        </div>
+        </div>
+       
+    </div>

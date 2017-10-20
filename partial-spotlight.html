@@ -1,0 +1,95 @@
+
+<div class="mdl-card" ng-repeat="card in spotlightResult">
+
+    <div class="mdl-card__title">
+        <i class="material-icons">cloud</i>
+        <p class="artist-name">{{card.artist.name}}</p>
+
+        <div class="action-options">
+            <i class="material-icons" ng-click="like(card.artist)">thumb_up</i>
+            <i ng-if="card.event.type === 'soundcloud'" class="material-icons" ng-click="addToQueue(card)">add</i>
+        </div>
+
+        <p class="media-content-txt" ng-if="card.event.type === 'youtube' || card.event.type === 'soundcloud'" title="{{card.event.meta.songName}}">{{card.event.meta.songName | limitTo: 35}}<span ng-if="card.event.meta.songName.length >= 35">...</span></p>
+        <p class="media-content-txt" ng-if="card.event.type === 'bands in town'">
+            <span class="mdl-chip">
+   
+    <span class="mdl-chip__text">Tour Dates Near You</span>
+            </span>
+
+        </p>
+
+    </div>
+    <div class="mdl-card__media-1" style="background-image: url('{{card.artist.image}}')">
+
+        <!-- Soundcloud add to queue -->
+        <div ng-if="card.event.type === 'soundcloud'">
+            <!-- Play Song -->
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" ng-click="playSong(card)" ng-hide="currentSong.event.uri === card.event.uri" >
+                <i class="material-icons">play_arrow</i>
+            </button>
+            <!-- when playing equalizer -->
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" ng-click="pauseFromCard()" ng-show="currentSong.event.uri === card.event.uri" >
+                <div class="equalizer">
+                  <span class="bar bar-1"></span>
+                  <span class="bar bar-2"></span>
+                  <span class="bar bar-3"></span>  
+                </div>
+            </button>
+        </div>
+   
+        
+        <!-- band in town show dates -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" ng-click="showDates(card)" ng-if="card.event.type === 'bands in town'">
+            <i class="material-icons">date_range</i>
+        </button>
+
+        <!-- youtube watch -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect dialog-button" ng-click="playVideo(card); yt_video.playVideo()" ng-if="card.event.type === 'youtube'">
+            <i class="material-icons">play_arrow</i>
+        </button>
+            
+    </div>
+</div>
+
+<div class="mdl-backdrop" id="youtube-player">
+    <dialog class="mdl-dialog">
+        <i class="material-icons" id="close-player" ng-click="closeVideo()">close</i>
+        <div class="mdl-dialog__content">
+            <youtube-video class="youtube-player" player="yt_video" player-vars="playerVars" video-url="currentlyPlayingVideo"></youtube-video>
+
+        </div>
+    </dialog>
+</div>
+
+<div class="mdl-backdrop" id="tourdate-modal">
+    <dialog class="mdl-dialog">
+        <h1>
+            <i class="material-icons">date_range</i> Upcomming Shows
+        </h1>
+        <i class="material-icons" id="close-player" ng-click="closeDates()">close</i>
+        <div class="mdl-dialog__content">
+            <table class="mdl-data-table mdl-js-data-table">
+                <thead>
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Name</th>
+                        <th class="mdl-data-table__cell--non-numeric">City</th>
+                        <th class="mdl-data-table__cell--non-numeric"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="date in tourDates.resultsPage.results.event">
+                        <td class="mdl-data-table__cell--non-numeric">{{date.displayName}}
+                        </td>
+                        <td class="mdl-data-table__cell--non-numeric"> {{date.location.city}}
+                        </td>
+                        <td class="mdl-data-table__cell--non-numeric">
+                            <a class=" btn btn-sm btn-primary" target="_blank" href="{{date.uri}}">tickets</a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </dialog>
+</div>

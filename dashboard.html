@@ -1,0 +1,24 @@
+<div ng-model="user">
+    <main class="mdl-layout__content">
+        <div class="banner">
+            <div class="black-overlay" ng-repeat="person in user">
+                <div class="user-image" style="background-image: url('{{person.picture_large}}')"></div>
+                <!-- Tabs -->
+                <div class="mdl-layout__tab-bar">
+                    <a ui-sref="dashboard.spotlight" class="mdl-layout__tab" ui-sref-active="is-active">
+                        Spotlight
+                    </a>
+                    <a ui-sref="dashboard.queue" class="mdl-layout__tab" ui-sref-active="is-active">
+                        Playlist
+                    </a>
+                    <a ui-sref="dashboard.likes" class="mdl-layout__tab" ui-sref-active="is-active">Artist</a>
+                    <a ui-sref="dashboard.settings" class="mdl-layout__tab" ui-sref-active="is-active">Settings</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="page-content">
+            <div class="subview" autoscroll="false" ui-view></div>
+        </div>
+    </main>
+</div>

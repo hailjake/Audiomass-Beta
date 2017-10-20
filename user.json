@@ -1,0 +1,21 @@
+[{
+    "name": "Jake",
+    "bgImage": "/images/userbg.jpg",
+    "userImage": "http://www.pixelpshr.com/images/Jake-Anderson-Front-End-Developer.jpg",
+    "genres": {
+        "pop": false,
+        "rock": true,
+        "alternative": true,
+        "metal": true,
+        "hardcore": true,
+        "rap": true,
+        "hiphop": false,
+        "trap": true,
+        "underground": true,
+        "electronic": false,
+        "dubstep": true,
+        "house": false,
+        "experimental": false,
+        "emo": true
+    }
+}]

@@ -1,0 +1,41 @@
+<div id="profile-wrapper">
+
+   <p class="goBack" ui-sref="dashboard.likes" > <i class="material-icons">arrow_back</i> back to liked artist</p>
+    
+    <div class="profile-card-wide mdl-card mdl-shadow--2dp ">
+        <div class="left" style="background-image: url('{{artist[0].image}}')">
+        </div>
+    
+        <div class="right">
+            <h2 class="mdl-card__title-text">{{artist[0].name}}</h2>
+            <span>{{artist[0].genre[0]}}</span> | <span>{{artist[0].genre[1]}}</span> | <span>{{artist[0].genre[2]}}</span>
+            <p>Bio Will Go Here Once I Get To it!</p>
+        </div>
+ 
+    
+    </div>
+
+    <h4> Incomming Feed - {{artist[0].name}} <i class="material-icons">rss_feed</i></h4>
+
+    <div class="mdl-card" ng-repeat="card in artistResult | filter: artist[0].name">
+        <div class="mdl-card__title">
+            <i class="material-icons">cloud</i>
+            <p class="artist-name">{{card.artist.name}}</p>
+            <p class="media-content-txt">{{card.event.meta.songName}}</p>
+
+            <div class="action-options">
+                <i class="material-icons" ng-click="like(card.artist)">thumb_up</i>
+                <i class="material-icons" ng-click="removeFromQueue(card)">delete_forever</i>
+            </div>
+        </div>
+        <div class="mdl-card__media-1" style="background-image: url('{{card.artist.image}}')">
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" ng-click="playSong(card)">
+                <i class="material-icons">play_arrow</i>
+            </button>
+        </div>
+    </div>
+
+
+
+
+</div>

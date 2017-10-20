@@ -1,0 +1,42 @@
+<div class="alert" role="alert" ng-if="alreadyLiked">
+    <strong>Oh snap!</strong> You already liked this artist.
+</div>
+
+<div ng-if="playlist.length < 1" class="noResults">
+
+    <h1>Oh No! Your queue is empty!</h1>
+    <a class="mdl-navigation__link" ui-sref="dashboard.spotlight">Add Music From Spotlight</a>
+
+</div>
+
+
+<div class="mdl-card" ng-repeat="card in playlist">
+    <div class="mdl-card__title">
+        <i class="material-icons">cloud</i>
+        <p class="artist-name">{{card.artist.name}}</p>
+        <p class="media-content-txt">{{card.event.meta.songName | limitTo: 30}}<span ng-if="card.event.meta.songName.length >= 30">...</span></p>
+        
+        <div class="action-options">
+        <i class="material-icons" ng-click="like(card.artist)">thumb_up</i>
+        <i class="material-icons" ng-click="removeFromQueue(card)">delete_forever</i>
+        </div>
+    </div>
+    <div class="mdl-card__media-1" style="background-image: url('{{card.artist.image}}')">
+         <!-- Soundcloud add to queue -->
+        <div ng-if="card.event.type === 'soundcloud'">
+            <!-- Play Song -->
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" ng-click="playSong(card)" ng-hide="currentSong.event.uri === card.event.uri" >
+                <i class="material-icons">play_arrow</i>
+            </button>
+            <!-- when playing equalizer -->
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" ng-click="pauseFromCard()" ng-show="currentSong.event.uri === card.event.uri" >
+                <div class="equalizer">
+                  <span class="bar bar-1"></span>
+                  <span class="bar bar-2"></span>
+                  <span class="bar bar-3"></span>  
+                </div>
+            </button>
+        </div>
+     
+    </div>
+</div>

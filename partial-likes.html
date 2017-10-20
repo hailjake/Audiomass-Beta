@@ -1,0 +1,21 @@
+<div ng-if="likedArtist.length < 1" class="noResults">
+
+    <h1>You have not liked any artists</h1>
+    <a class="mdl-navigation__link" ui-sref="dashboard.spotlight">Listen & Like From Spotlight</a>
+
+</div>
+
+<div class="mdl-card" ng-repeat="artist in likedArtist">
+    <div class="mdl-card__title">
+        <i class="material-icons">cloud</i>
+        <p class="artist-name">{{artist.name}}</p>
+        <div class="action-options">
+            <i class="material-icons" ng-click="unlikeArtist(artist)">thumb_up</i>
+        </div>
+    </div>
+    <div class="mdl-card__media-1" style="background-image: url('{{artist.image}}')">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" ng-click="artistProfileLnk(artist)">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+//request
+{
+    authKey: 'dasfasfadsfasfas',
+    payload : {
+        criteria:{
+                   
+        }
+    }
+}
+
+//response
+{
+    data : {
+        
+    },
+    errors : []
+}
+
+
+//--- api/user
+//--- GET
+//--- api/user/feed
+//--- GET
+//--- payload
+    {
+        data : [
+            {
+                artistFeedItemId: 'sdfsdfdsfsd'
+            }
+        ]
+    }
+//--- api/user/like
+//--- GET PUT DELETE
+//--- api/user/setting
+//--- GET PUT DELETE
+
+//--- api/artist/{id}
+//--- GET
+//--- multiple artists in one call -> /api/artist/{id1}|{id2}|{id3}
+
+//--- ARTIST FEED ITEM
+//--- api/artist/feed/{feedItemId}
+//--- GET
+//--- multiple artists in one call -> /api/artist/feed/{feedItemId1}|{feedItemId2}|{feedItemId3}
+//---- payload
+    {
+        data : [
+            {
+                artist : {
+                    id: 'dasfasdfas',
+                    image : 'dsafasfads',
+                    name : 'sdfdsfds',
+                    genre : [
+                        'metalcore',
+                        'folk'
+                    ]
+                },
+                feed : {
+                    id : 'adsfadsfasd',
+                    date : '12/12/32',
+                },
+                event : {
+                    type : 'soundcloud',
+                    uri : 'asdfadsfasfas',
+                    meta : {
+                        
+                    }
+                }
+            }
+        ]
+    }

@@ -1,0 +1,565 @@
+[
+    
+        {
+        "artist": {
+            "id": 1,
+            "image": "https://i1.sndcdn.com/artworks-000169888131-1vusec-t500x500.jpg",
+            "name": "Da$h",
+            "genre": [
+                "Underground",
+                "Trap",
+                "Rap"
+            ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/heirdash/now-or-never-prod-vdon",
+            "meta": {
+                "songName": "Now or Never"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 1,
+            "image": "https://i1.sndcdn.com/artworks-000218256676-xh53vm-t500x500.jpg",
+            "name": "XXXTENTACION",
+            "genre": [
+                "Underground",
+                "Trap",
+                "Rap"
+            ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/jahseh-onfroy/xxxtentacion-feat-kinoul-killstation-slipknot",
+            "meta": {
+                "songName": "Now or Never"
+            }
+        }
+        },
+        {
+        "artist": {
+            "id": 1,
+            "image": "https://i1.sndcdn.com/artworks-000195399594-q5g6qm-t500x500.jpg",
+            "name": "XavierWulf",
+            "genre": [
+                "Underground",
+                "Trap",
+                "Rap"
+            ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/xavierwulf/xavier-wulf-cold-front-prod-elijah",
+            "meta": {
+                "songName": "Cold Front Prod. ElijahMadeit"
+            }
+        }
+        },
+           {
+        "artist": {
+            "id": 1,
+            "image": "https://i1.sndcdn.com/avatars-000296487064-u3c45w-t200x200.jpg",
+            "name": "Chris Travis",
+            "genre": [
+                "Underground",
+                "Trap",
+                "Rap"
+            ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/christravis/chris-travis-beam",
+            "meta": {
+                "songName": "Beam"
+            }
+        }
+        }, 
+    
+    
+    {
+        "artist": {
+            "id": 1,
+            "image": "http://img2-ak.lst.fm/i/u/770x0/c5874804f3b54347c3e2f542a4a7fecd.jpg",
+            "name": "XavierWulf",
+            "genre": [
+                "Underground",
+                "Trap",
+                "Rap"
+            ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "http://soundcloud.com/xavierwulf/xavier-wulf-wya-prod-surge",
+            "meta": {
+                "songName": "Where You At? Prod by Verde"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 16,
+            "image": "http://img.youtube.com/vi/dPfn4BCha-E/mqdefault.jpg",
+            "name": "Smokepurpp & Xavier Wulf ",
+            "genre": [
+                "Metal",
+                "Nu Metal",
+                "Hardcore"
+            ]
+        },
+        "feed": {
+            "id": "23432423",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "youtube",
+            "uri": "https://www.youtube.com/embed/dPfn4BCha-E",
+            "meta": {
+                "songName": "Fuck A Swisher (Shot by @_ColeBennett_)"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 3,
+            "image": "https://i1.sndcdn.com/avatars-000253288059-howh5c-t500x500.jpg",
+            "name": "Lil Peep",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Pop"
+                ]
+        },
+        "feed": {
+            "id": 5234234234,
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/lil_peep/yesterday-prod-charlie-shuffler",
+            "meta": {
+                "songName": "yesterday (prod. charlie shuffler)"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 4,
+            "image": "https://i1.sndcdn.com/avatars-000274825943-g314g7-t500x500.jpg",
+            "name": "OmenXIII",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Metal"
+                ]
+        },
+        "feed": {
+            "id": 63423423423,
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/omenxiii/i-see-it-all",
+            "meta": {
+                "songName": "I See It All (Prod. OmenXIII)"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 4,
+            "image": "http://img.youtube.com/vi/a8Ra0p1CRZg/mqdefault.jpg",
+            "name": "Bones",
+            "genre": [
+                    "Rock",
+                    "Rap",
+                    "Experimental"
+                ]
+        },
+        "feed": {
+            "id": 63423423423,
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "youtube",
+            "uri": "https://www.youtube.com/watch?v=a8Ra0p1CRZg",
+            "meta": {
+                "songName": "TakingOutTheTrash"
+            }
+        }
+        },
+
+    {
+        "artist": {
+            "id": 5,
+            "image": "https://i1.sndcdn.com/avatars-000267199801-xlp5kl-t200x200.jpg",
+            "name": "Pouya",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Pop"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/pouya-kevin/scrubs",
+            "meta": {
+                "songName": "Pouya - Scrubs Ft. Shakewell (Prod. By Getter)"
+            }
+        }
+        },
+
+    {
+        "artist": {
+            "id": 5,
+            "image": "https://pbs.twimg.com/media/CxWHbJ9W8AABKbP.jpg",
+            "name": "XavierWulf",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Pop"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "dateToggle": false,
+        "event": {
+            "type": "bands in town",
+            "uri": "7730984",
+            "meta": {
+                "localTourDate": "Xavier Wulf with Vohrtex and Plvxid at shakas live, Los Angeles"     
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 6,
+            "image": "https://i1.sndcdn.com/artworks-000192414069-fo9x6x-t500x500.jpg",
+            "name": "Christ Smoov",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Trap"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/christ-smoov/the-code-prod-frxzen",
+            "meta": {
+                "songName": "The Code (Prod. FRXZEN)"
+            }
+        }
+        },
+
+    {
+        "artist": {
+            "id": 8,
+            "image": "https://i1.sndcdn.com/avatars-000270312065-fgbg5b-t200x200.jpg",
+            "name": "MKULTRA",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Metal"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/mkultraproductions/og115",
+            "meta": {
+                "songName": "OG115"
+            }
+        }
+        },
+    
+    {
+        "artist": {
+            "id": 8,
+            "image": "//images.sk-static.com/images/media/profile_images/artists/8801214/huge_avatar",
+            "name": "21 Savage",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Trap"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "bands in town",
+            "uri": "8801214",
+            "dateToggle": false,
+            "meta": {
+                "localTourDate": "21 Savage Live at the Observatory, Orange County"     
+            }
+        }
+        },
+    
+{
+        "artist": {
+            "id": 8,
+            "image": "http://i3.ytimg.com/vi/fLNqaGI5Qm4/hqdefault.jpg",
+            "name": "The Last Ten Seconds Of Life",
+            "genre": [
+                    "Underground",
+                    "Hardcore",
+                    "Metal"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "youtube",
+            "uri": "https://www.youtube.com/watch?v=fLNqaGI5Qm4",
+            "meta": {
+                "songName": "Little Black Line"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 9,
+            "image": "https://i1.sndcdn.com/avatars-000010000255-wv8dho-t500x500.jpg",
+            "name": "The Ready Aim Fire",
+            "genre": [
+                    "Indie",
+                    "Rock",
+                    "Experimental"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/thereadyaimfire/06-till-it-sings-till-it",
+            "meta": {
+                "songName": "Till It Sings, Till It Screams"
+            }
+        }
+    },
+    {
+        "artist": {
+            "id": 10,
+            "image": "https://i1.sndcdn.com/avatars-000218677894-r5lmph-t500x500.jpg",
+            "name": "Ghostemane",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Experimental"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/ghostemane/ghostemane-venom",
+            "meta": {
+                "songName": "Venom"
+            }
+        }
+    },
+    {
+        "artist": {
+            "id": 11,
+            "image": "https://i1.sndcdn.com/avatars-000201216385-njkdyg-t500x500.jpg",
+            "name": "Eddy Baker",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Trap"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/eddybaker/eddy-baker-groceries-prod-by-stretch",
+            "meta": {
+                "songName": "Groceries (Prod. By Stretch)"
+            }
+        }
+    },
+    {
+        "artist": {
+            "id": 12,
+            "image": "https://i1.sndcdn.com/artworks-000167039644-ofg9pe-t500x500.jpg",
+            "name": "Gizmo",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Trap"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/gizmogwai/i-wanna-drown-prod-nurture",
+            "meta": {
+                "songName": "i wanna drown (prod. E715)"
+            }
+        }
+    },
+    
+    {
+        "artist": {
+            "id": 12,
+            "image": "http://i3.ytimg.com/vi/TJd3jEoP8yI/hqdefault.jpg",
+            "name": "Ghostemane",
+            "genre": [
+                    "Underground",
+                    "Rap",
+                    "Trap"
+                ]
+        },
+        "feed": {
+            "id": "918230198231",
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "youtube",
+            "uri": "https://www.youtube.com/embed/TJd3jEoP8yI",
+            "meta": {
+                "songName": "Andromeda (Official Video)"
+            }
+        }
+    },
+    {
+        "artist": {
+            "id": 2,
+            "image": "http://cdn3.pitchfork.com/news/56305/2001beab.jpg",
+            "name": "Trash Talk",
+            "genre": [
+                    "Underground",
+                    "Hardcore",
+                    "Punk"
+                ]
+        },
+        "feed": {
+            "id": 32343242,
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/ofwgkta-official/trash-talk-cloudkicker",
+            "meta": {
+                "songName": "Cloud Kicker"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 13,
+            "image": "https://i1.sndcdn.com/avatars-000244204931-u29q9m-t500x500.jpg",
+            "name": "Killstation",
+            "genre": [
+                    "Underground",
+                    "Hardcore",
+                    "Rap"
+                ]
+        },
+        "feed": {
+            "id": 32343242,
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/killstation/rosoideae",
+            "meta": {
+                "songName": "rosoideae (prod. killstation)"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 13,
+            "image": "https://i1.sndcdn.com/avatars-000273447811-85ubp5-t500x500.jpg",
+            "name": "J$tash",
+            "genre": [
+                    "Underground",
+                    "Trap",
+                    "Rap"
+                ]
+        },
+        "feed": {
+            "id": 32343242,
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/imjstash/j-tash-abu-dhabi-ft-kenny-turnup-produced-by-jaasu-1",
+            "meta": {
+                "songName": "Abu Dhabi Ft Kenny Turnup (Produced By Jaasu)"
+            }
+        }
+        },
+    {
+        "artist": {
+            "id": 13,
+            "image": "https://i1.sndcdn.com/artworks-000114935097-10zaj5-t500x500.jpg",
+            "name": "PlayBoiCarti",
+            "genre": [
+                    "Underground",
+                    "Trap",
+                    "Rap"
+                ]
+        },
+        "feed": {
+            "id": 32343242,
+            "date": "12/12/32"
+        },
+        "event": {
+            "type": "soundcloud",
+            "uri": "https://soundcloud.com/678carti/fetti-dash-maxo-kream-playboi-carti-prod-808mafia",
+            "meta": {
+                "songName": "Fetti - prod. ChrisFresh feat. Dash & Maxo 808mafia"
+            }
+        }
+        }
+]
